@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bootstrap Project Advanced</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    
+    <style>
+        .titulo-header {
+            background-color: #2a7df8;
+            padding: 20px 0;
+            text-align: center;
+            color: rgb(243, 242, 242);
+        }
+
+        .container-cards {
+            margin-top: 30px;
+        }
+
+        body {
+            background-color: #b5b4bd;
+        }
+        
+        .row p {
+            margin-top: 20px
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="titulo-header">
+        <h1>Conheça a Suíça</h1>
+    </div>
+<div class="container">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2023/08/12/04/24/mabry-mill-8184715_1280.jpg" alt="Moínho d'água" class="d-block w-100 img-fluid">
+                <div class="carousel-caption">
+                    <h2>Imagem de um moínho no rio</h2>
+                </div>
+            </div>
+            
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2023/05/01/14/14/mountains-7963159_1280.jpg" alt="Montanha de gelo" class="d-block w-100 img-fluid">
+                <div class="carousel-caption">
+                    <h2>Imagem de uma montanha de gelo</h2>
+                </div>
+            </div>
+            
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2023/07/05/18/13/mountains-8108961_1280.jpg" alt="Lago nas montanhas" class="d-block w-100 img-fluid">
+                <div class="carousel-caption">
+                    <h2>Imagem de um lago entre montanhas</h2>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="container-cards">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #5772ca; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Geografia</h4>
+                    <h5 class="card-subtitle">Mapas da Suíça</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #193591; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Transportes</h4>
+                    <h5 class="card-subtitle">Opções de mobilidade</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #0b1a4d; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Hoteis e Pousadas</h4>
+                    <h5 class="card-subtitle">Hospedagem e localização</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #272f4b; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Esportes de inverno</h4>
+                    <h5 class="card-subtitle">Opções de lazer</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #060d22; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Restaurantes e bares</h4>
+                    <h5 class="card-subtitle">Conheça a gastronomia</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card" style="background-color: #01040f; color: white; margin-bottom: 30px;">
+                <div class="card-body">
+                    <h4 class="card-title">Pontos turísticos</h4>
+                    <h5 class="card-subtitle">As principais atrações</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt dolorem fugiat quia animi consectetur. Adipisci quo quia quidem sunt commodi quae, sit velit tempore debitis error maiores quis sed?
+                    </p>
+                    <a href="#" class="btn btn-primary">Botão link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
